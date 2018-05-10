@@ -1,0 +1,596 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <title>Platform for Earthquake Detection </title>
+
+    <!-- Bootstrap -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    
+    <!-- bootstrap-progressbar -->
+    <link href="vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link href="vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="build/css/custom.min.css" rel="stylesheet">
+    <script type="text/javascript">
+    
+    function todayDate(day){
+    	var today = new Date();
+    	var dd = today.getDate();
+
+    	var mm = today.getMonth()+1; 
+    	var yyyy = today.getFullYear();
+    	 
+    	switch(day){		
+    	case 1:
+    			{  dd=dd-7;
+    			if(dd<0){
+    				dd+=30;
+    				mm--;
+    				if(mm<=0){
+    					mm=12;
+    					yyyy--;
+    				}
+    			}
+    			break;
+    		 }
+    	case 2:{
+    		mm--;
+    		if(mm<=0){
+    			mm=12;
+    			yyyy--;
+    		}
+    		break;
+    	}
+    	case 3:{
+    		yyyy--;
+    		break;
+    	}
+    	}
+    	if(dd<10) 
+    	{
+    	    dd='0'+dd;
+    	} 
+
+    	if(mm<10) 
+    	{
+    	    mm='0'+mm;
+    	}
+    	today = yyyy+'-'+mm+'-'+dd;
+	
+    	return today;
+    }
+    
+    
+      var HttpClient = function() {
+      this.get = function(aUrl, aCallback) {
+        var anHttpRequest = new XMLHttpRequest();
+        anHttpRequest.onreadystatechange = function() { 
+            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                aCallback(anHttpRequest.responseText);
+        }
+
+        anHttpRequest.open( "GET", aUrl, true );            
+        anHttpRequest.send( null );
+       }
+      }
+      var client = new HttpClient();
+
+     
+      endtime=todayDate(0);
+      pastweek=todayDate(1);
+      pastmonth=todayDate(2);
+      pastyear=todayDate(3);
+    //  console.log(starttime);
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastweek+'&endtime='+endtime+'&latitude=36.17&longitude=-119.7462&maxradius=6', function(response) {
+          document.getElementById('pastweek').innerHTML=response;
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastmonth+'&endtime='+endtime+'&latitude=36.17&longitude=-119.7462&maxradius=6', function(response) {
+          document.getElementById('onemonth').innerHTML=response;
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastyear+'&endtime='+endtime+'&latitude=36.17&longitude=-119.7462&maxradius=6', function(response) {
+          document.getElementById('oneyear').innerHTML=response;
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastweek+'&endtime='+endtime, function(response) {
+          document.getElementById('Wpastweek').innerHTML=response;
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastmonth+'&endtime='+endtime, function(response) {
+          document.getElementById('Wonemonth').innerHTML=response;
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastyear+'&endtime='+endtime, function(response) {
+          document.getElementById('Woneyear').innerHTML=response;
+      });
+      var mag_2,mag2_3,mag3_4,mag4_5,mag5;
+      var earthquake2018,earthquake2017,earthquake2016,earthquake2015,earthquake2014;
+     
+
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2014-01-1&endtime=2014-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2014=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2015-01-1&endtime=2015-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2015=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2016-01-1&endtime=2016-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2016=response;
+
+      });
+
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2017-01-1&endtime=2017-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2017=response;
+
+      });
+
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2018-01-1&endtime=2018-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2018=response;
+
+      });
+
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=1&maxmagnitude=2&starttime=2018-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             mag_2=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude=3&starttime=2018-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             mag2_3=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=3&maxmagnitude=4&starttime=2018-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             mag3_4=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=4&maxmagnitude=5&starttime=2017-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             mag4_5=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=5&starttime=2017-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+      mag5=response;
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      console.log(response);
+           function drawChart() {
+
+        // PieChart
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+        data.addColumn('number', 'count');
+        data.addRows([
+          ['2014', parseInt(earthquake2014)],
+          ['2015', parseInt(earthquake2015)],
+          ['2016', parseInt(earthquake2016)],
+          ['2017', parseInt(earthquake2017)],
+          ['2018', parseInt(earthquake2018)]
+        ]);
+        var options = {'title':'',
+                slices: {0: {color: 'red'}, 1:{color: 'green'}, 2:{color: 'blue'}, 3: {color: 'orange'}, 4:{color: 'purple'}},
+ 				legend:{position:'bottom'},
+        };
+        var chart = new google.visualization.PieChart  (document.getElementById('earthquake_PieChart'));
+        chart.draw(data, options);
+
+
+       //Area chart
+      
+      magOnChange(3,0);
+        // Donut Chart
+        var data3 = new google.visualization.DataTable();
+        data3.addColumn('string', 'magnitude');
+        data3.addColumn('number', 'count');
+        data3.addRows([
+          ['Magnitude <2', parseInt(mag_2)],
+          ['Magnitude 2-3', parseInt(mag2_3)],
+          ['Magnitude 3-4', parseInt(mag3_4)],
+          ['Magnitude 4-5', parseInt(mag4_5)],
+          ['Magnitude >5', parseInt(mag5)]
+        ]);
+        var options3 = {'title':'',
+                slices: {0: {color: 'orange'}, 1:{color: 'green'}, 2:{color: 'yellow'}, 3: {color: 'purple'}, 4:{color: 'grey'}},
+          legend:{position:'bottom'},
+        'pieHole': 0.4};
+                      
+        var chart3 = new google.visualization.PieChart  (document.getElementById('earthquake_donut'));
+        chart3.draw(data3, options3);
+
+        // TrendLine
+        var data4 = google.visualization.arrayToDataTable([
+                     ['Year', 'Earthquakes'],
+                     [2014, parseInt(earthquake2014)],
+                     [2015, parseInt(earthquake2015)],
+                     [2016, parseInt(earthquake2016)],
+                      [2017, parseInt(earthquake2017)]]);
+        var options4 = {
+                title: '',
+                hAxis: {title: 'Year'},
+                vAxis: {title: 'Earthquakes'},
+                legend: 'none',
+                trendlines: { 0: {} }    // Draw a trendline for data series 0.
+             };
+
+         var chart4 = new google.visualization.ScatterChart(document.getElementById('earthquake_trendline'));
+         chart4.draw(data4, options4);
+      }
+   
+      });
+
+      
+      function parameterMagOnChange(){
+
+    	  var magnitude=document.getElementById("magnitude").value;
+       
+           var loc=parseInt(document.getElementById("location").value);
+           magOnChange(magnitude,loc);
+    	  
+      }
+      
+      
+      function magOnChange(magnitude,loc){
+    	  
+    	   var magless2014,magless2015,magless2016,magless2017,magless2018,magmore2014,magmore2015,magmore2016,magmore2017,magmore2018;
+           document.getElementById("earthquake_area_chart").innerHTML = "";
+    	  var latlong=[
+       	   [36.821,-119.936,6.2],[37.740,-122.452,1.09],[37.321,-121.905,0.9],[34.011,34.011,1.65]
+          ] 
+
+         client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2014-01-1&endtime=2014-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2]+'', function(response) {
+                magless2014=response;
+         });
+
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2015-01-1&endtime=2015-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magless2015=response;
+
+         });
+
+         client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2016-01-1&endtime=2016-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magless2016=response;
+
+         });
+
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2017-01-1&endtime=2017-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magless2017=response;
+
+         });
+
+           client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2018-01-1&endtime=2018-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magless2018=response;
+
+         });
+
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2014-01-1&endtime=2014-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2014=response;
+
+         });
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2015-01-1&endtime=2015-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2015=response;
+
+         });
+
+         client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2016-01-1&endtime=2016-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2016=response;
+
+         });
+
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2017-01-1&endtime=2017-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2017=response;
+
+         });
+
+           client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2018-01-1&endtime=2018-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2018=response;
+
+         
+          
+        //   console.log(magless2014+" "+magless2015+" "+magless2016+" "+magless2017+" "+magless2018);
+          // console.log(magmore2014+" "+magmore2015+" "+magmore2016+" "+magmore2017+" "+magmore2018);
+           // Area Chart
+           var data1 = google.visualization.arrayToDataTable([
+            ['Year', 'Magnitude<'+magnitude, 'Magnitude>'+magnitude],
+            ['2014',  parseInt(magless2014),parseInt(magmore2014)],
+            ['2015',  parseInt(magless2015),parseInt(magmore2015)],
+            ['2016',  parseInt(magless2016),parseInt(magmore2016)],
+            ['2017',  parseInt(magless2017),parseInt(magmore2017)],
+            ['2018',  parseInt(magless2018),parseInt(magmore2018)]
+          ]);
+
+          var options1 = {
+            title: 'Earthquakes Over Time',
+            hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
+            vAxis: {minValue: 0},
+              // Colors the entire chart area, simple version
+              // backgroundColor: '#FF0000',
+              // Colors the entire chart area, with opacity
+              backgroundColor: {
+                fill: '#1ABB9C',
+                fillOpacity: 0.1
+              }
+          };
+          var chartType=document.getElementById("chartType").value;
+          if(chartType=="areachart"){
+          var chart1 = new google.visualization.AreaChart(document.getElementById('earthquake_area_chart'));
+          chart1.draw(data1, options1);
+          }
+          else if(chartType=="barchart"){
+        	  var chart1 = new google.visualization.BarChart(document.getElementById('earthquake_area_chart'));
+              chart1.draw(data1, options1);  
+          }
+          else {
+        	  var chart1 = new google.visualization.ColumnChart(document.getElementById('earthquake_area_chart'));
+              chart1.draw(data1, options1);  
+          }
+           });  
+      }
+         </script>
+  </head>
+  <body class="nav-md" >
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="glyphicon glyphicon-globe"></i> <span>Earthquake Prediction</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+            <br />
+
+            <!-- sidebar menu -->
+               <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a href="/"><i class="glyphicon glyphicon-dashboard"></i>&nbsp&nbsp&nbsp&nbspDashboard </span></a>
+                   
+                    
+                  </li>
+                  <li><a href="/datadownload"><i class="fa fa-edit"></i> Data Extraction </a>
+                  </li>
+                  <li><a href="/noiseremoval"><i class="fa fa-table"></i> Noise Removal </a>
+                  </li>
+                  <li ><a href="/prediction"><i class="glyphicon glyphicon-time"></i>&nbsp&nbsp&nbsp&nbspPrediction Model </a>
+                  </li>
+                  <li ><a href="/subscribe"><i class="glyphicon glyphicon-plus"></i>&nbsp&nbsp&nbsp&nbspSubscribe </a>
+                  </li>
+                  <li ><a href="/unsubscribe"><i class="glyphicon glyphicon-minus"></i>&nbsp&nbsp&nbsp&nbspUnsubscribe</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>boot
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+            </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <!-- top tiles -->
+          <div class="col-md-6"><h2>California Statistics</h2></div>
+          <div class="col-md-6"><h2>World Statistics</h2></div>
+        
+          <div class="row tile_count">
+            
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"></i> Total Earthquakes</span>
+              <div class="count" id="pastweek"></div>
+              <span class="count_bottom">From past one Week</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"></i> Total Earthquakes</span>
+              <div class="count" id="onemonth"></div>
+              <span class="count_bottom">From past one Month</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"></i> Total Earthquakes</span>
+              <div class="count" id="oneyear"></div>
+              <span class="count_bottom">From past one Year</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"></i> Total Earthquakes</span>
+              <div class="count" id="Wpastweek"></div>
+              <span class="count_bottom">From past one Week</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"></i> Total Earthquakes</span>
+              <div class="count" id="Wonemonth"></div>
+              <span class="count_bottom">From past one Month</span>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+              <span class="count_top"></i> Total Earthquakes</span>
+              <div class="count" id="Woneyear"></div>
+              <span class="count_bottom">From past one Year</span>
+            </div>
+            
+            
+          </div>
+          <!-- /top tiles -->
+
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="dashboard_graph">
+
+                <div class="row x_title">
+                  <div class="col-md-4">
+                    <h3>Total Earthquakes</h3>
+                  </div>
+                  <div class="col-md-8" style="float:left">
+                    <label>Location: </label> <select  id="location">
+                     <option value="0">California</option>
+                    <option value="1">San Jose</option>
+                    <option value="2">San Francisco</option>
+                    <option value="3">Los Angeles</option>
+                    
+                    </select>
+                    
+                    <label>Chart Type: </label> <select  id="chartType">
+                    <option value="areachart">Area Chart</option>
+                    <option value="barchart"> Bar Chart</option>
+                    <option value="columnchart">Column Chart</option>
+                    </select>
+                    
+                  
+                    <label>Magnitude: </label> <input type="number" min="2" max="8" value="magnitude" id="magnitude"></input>
+                   <input type='button' onClick="parameterMagOnChange()" value="View"></input>
+                   
+                   </div>
+                  <div style="height: 300px" class="col-md-12 col-sm-12 col-xs-12" id="earthquake_area_chart"></div>
+
+            </div>
+
+          </div>
+          <br />
+
+          <div class="row">
+
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="x_panel tile fixed_height_420 col-md-2" style="display: inline;">
+                <div class="x_title">
+                  <h4>Total Earthquake By Year</h4>
+                <div class="col-md-12 col-sm-12" style="margin-top: 8px"  id="earthquake_PieChart"></div>
+                </div>
+              </div>
+                
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="x_panel tile fixed_height_420 col-md-7" style="display: inline;">
+                <div class="x_title">
+                  <h4>Earthquakes By Magnitude</h4>
+                <div class="col-md-12 col-sm-12" style="margin-top: 8px"  id="earthquake_donut"></div>
+                </div>
+                
+              </div>
+            </div>
+             <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="x_panel tile fixed_height_420 col-md-7" style="display: inline;">
+                <div class="x_title">
+                  <h4>Earthquake TrendLine</h4>
+                <div class="col-md-12 col-sm-12" style="margin-top: 8px; height: 300px"  id="earthquake_trendline"></div>
+                </div>
+                
+              </div>
+            </div>
+
+            
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-8 col-sm-8 col-xs-12">
+
+
+            
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="vendors/Flot/jquery.flot.js"></script>
+    <script src="vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="vendors/Flot/jquery.flot.time.js"></script>
+    <script src="vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="vendors/moment/min/moment.min.js"></script>
+    <script src="vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="build/js/custom.min.js"></script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-23581568-13', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+  </body>
+</html>

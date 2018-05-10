@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Platform for Earthquake Detection </title>
+
+    <!-- Bootstrap -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    
+    <!-- bootstrap-progressbar -->
+    <link href="vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+    <!-- bootstrap-daterangepicker -->
+    <link href="vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="build/css/custom.min.css" rel="stylesheet">
+    <style type="text/css">
+       #map {
+        height: 500px;
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="glyphicon glyphicon-globe"></i> <span>Earthquake Prediction</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+            <br />
+
+            <!-- sidebar menu -->
+               <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a href="/"><i class="glyphicon glyphicon-dashboard"></i>&nbsp&nbsp&nbsp&nbspDashboard </span></a>
+                   
+                    
+                  </li>
+                  <li><a href="/datadownload"><i class="fa fa-edit"></i> Data Extraction </a>
+                  </li>
+                  <li><a href="/noiseremoval"><i class="fa fa-table"></i> Noise Removal </a>
+                  </li>
+                  <li ><a href="/prediction"><i class="glyphicon glyphicon-time"></i>&nbsp&nbsp&nbsp&nbspPrediction Model </a>
+                  </li>
+                  <li ><a href="/subscribe"><i class="glyphicon glyphicon-plus"></i>&nbsp&nbsp&nbsp&nbspSubscribe </a>
+                  </li>
+                  <li ><a href="/unsubscribe"><i class="glyphicon glyphicon-minus"></i>&nbsp&nbsp&nbsp&nbspUnsubscribe</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+            </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+       <div class="right_col" role="main">
+        <div style="height: 300px;width: 500px; margin-top:190px;margin-left: 250px;background-color: #B0C4DE"> 
+         <form action="/unsubscribe" method="post" style="margin: 30px;">
+          <br>
+          <div class="form-group">
+           <label for="Name">Name:</label>
+           <input class="form-control" type="text" class="form-control" name="name">
+         </div>
+      <div class="form-group">
+       <label for="email">Email:</label>
+        <input  slass="form-control" type="email" class="form-control" name="email">
+      </div>
+      <br>
+       <button type="submit" class="btn btn-default btn-primary">Subscribe</button>
+       
+        </form>
+        </div>
+       </div>
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+           Platfrom for Earthquake Detection @2018
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="vendors/Flot/jquery.flot.js"></script>
+    <script src="vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="vendors/Flot/jquery.flot.time.js"></script>
+    <script src="vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="vendors/moment/min/moment.min.js"></script>
+    <script src="vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="build/js/custom.min.js"></script>
+
+<!-- Google Analytics -->
+<script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 2,
+          center: {lat: -33.865427, lng: 151.196123},
+          mapTypeId: 'terrain'
+        });
+
+        // Create a <script> tag and set the USGS URL as the source.
+        var script = document.createElement('script');
+
+        // This example uses a local copy of the GeoJSON stored at
+        // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
+        script.src = 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp';
+        document.getElementsByTagName('head')[0].appendChild(script);
+
+        map.data.setStyle(function(feature) {
+          var magnitude = feature.getProperty('mag');
+          return {
+            icon: getCircle(magnitude)
+          };
+        });
+      }
+
+      function getCircle(magnitude) {
+        return {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillColor: 'red',
+          fillOpacity: .2,
+          scale: Math.pow(2, magnitude) / 2,
+          strokeColor: 'white',
+          strokeWeight: .5
+        };
+      }
+
+      function eqfeed_callback(results) {
+        map.data.addGeoJson(results);
+      }
+    </script>
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJcq0861S6TRPedx8YCZoRxDdNy7ApIP0&callback=initMap">
+    </script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-23581568-13', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+  </body>
+</html>

@@ -1,0 +1,5804 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>scsnmap.kml</name>
+<open>0</open>
+<description>scsnmap.kml</description>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.AFD</name>
+<description>-120.968971 , 38.945961&lt;br/&gt;Forest Hills Divide #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.968971 , 38.945961</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.BBGB</name>
+<description>-121.039566 , 36.578484&lt;br/&gt;Big Mountain #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.039566 , 36.578484</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.BJOB</name>
+<description>-121.314667 , 36.610867&lt;br/&gt;Mount Johnson</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.314667 , 36.610867</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.BMS</name>
+<description>-120.792923 , 36.663078&lt;br/&gt;Mercy Hot Springs</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.792923 , 36.663078</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.BRM</name>
+<description>-120.824654 , 36.845051&lt;br/&gt;Rolling Bench Mark</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.824654 , 36.845051</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C001</name>
+<description>-121.933762 , 37.5215&lt;br/&gt;Firth Ct Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.933762 , 37.5215</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C002</name>
+<description>-122.034508 , 37.558453&lt;br/&gt;Farnham Dr Newark</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.034508 , 37.558453</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C003</name>
+<description>-122.083969 , 37.707207&lt;br/&gt;Cottage Ct Castro Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.083969 , 37.707207</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C004</name>
+<description>-122.217949 , 37.844063&lt;br/&gt;Swainland Rd Oakland</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.217949 , 37.844063</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C005</name>
+<description>-122.236076 , 37.810753&lt;br/&gt;Mandana Bl Oakland</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.236076 , 37.810753</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C006</name>
+<description>-122.058243 , 37.591782&lt;br/&gt;Lk Pillsbury D Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.058243 , 37.591782</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C007</name>
+<description>-122.262802 , 37.895573&lt;br/&gt;Forest Ln Berkeley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.262802 , 37.895573</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C008</name>
+<description>-122.293594 , 37.895649&lt;br/&gt;Spokane Av Albany</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.293594 , 37.895649</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C009</name>
+<description>-122.184097 , 37.804863&lt;br/&gt;Brunell Dr Oakland</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.184097 , 37.804863</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C010</name>
+<description>-122.009933 , 37.944004&lt;br/&gt;Sunflower Ct Concord</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.009933 , 37.944004</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C011</name>
+<description>-122.292381 , 37.906418&lt;br/&gt;Colusa Av El Cerrito</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.292381 , 37.906418</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C012</name>
+<description>-122.312477 , 37.926361&lt;br/&gt;Glenmawr Av El Cerrito</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.312477 , 37.926361</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C013</name>
+<description>-122.188614 , 37.82383&lt;br/&gt;Ascot Ln Oakland</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.188614 , 37.82383</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C014</name>
+<description>-122.059998 , 37.682693&lt;br/&gt;Upland Wy Hayward</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.059998 , 37.682693</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C015</name>
+<description>-121.993729 , 37.559444&lt;br/&gt;Bright Common Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.993729 , 37.559444</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C016</name>
+<description>-121.867027 , 37.396355&lt;br/&gt;Longford Dr San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.867027 , 37.396355</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C017</name>
+<description>-121.926201 , 37.506489&lt;br/&gt;S Grimmer Bl Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.926201 , 37.506489</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C018</name>
+<description>-122.117378 , 37.979298&lt;br/&gt;Christie Dr Martinez</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.117378 , 37.979298</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C019</name>
+<description>-122.013863 , 37.98365&lt;br/&gt;St Phillip Ct Concord</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.013863 , 37.98365</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C020</name>
+<description>-122.20752 , 37.800846&lt;br/&gt;Rhoda Av Oakland</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.20752 , 37.800846</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C021</name>
+<description>-122.063759 , 37.695004&lt;br/&gt;Meadowview Dr Castro Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.063759 , 37.695004</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C022</name>
+<description>-121.974953 , 37.536137&lt;br/&gt;Davis St Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.974953 , 37.536137</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C023</name>
+<description>-121.954002 , 37.510437&lt;br/&gt;Technology Dr Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.954002 , 37.510437</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C024</name>
+<description>-122.335838 , 37.94334&lt;br/&gt;33rd St Richmond</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.335838 , 37.94334</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C025</name>
+<description>-121.900459 , 37.643719&lt;br/&gt;Golden Eagle Wy Pleasanton</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.900459 , 37.643719</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C026</name>
+<description>-122.051353 , 37.870518&lt;br/&gt;Kell Ct Alamo</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.051353 , 37.870518</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C027</name>
+<description>-121.979668 , 37.79351&lt;br/&gt;Lawnview Cir Danville</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.979668 , 37.79351</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C028</name>
+<description>-122.24588 , 37.850948&lt;br/&gt;Eucalyptus Rd Berkeley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.24588 , 37.850948</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C029</name>
+<description>-121.971252 , 37.788818&lt;br/&gt;Evergreen Ct Danville</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.971252 , 37.788818</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C030</name>
+<description>-121.609894 , 37.154915&lt;br/&gt;Blue Jay Dr Morgan Hill</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.609894 , 37.154915</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C031</name>
+<description>-122.276932 , 37.86322&lt;br/&gt;McGee Av Berkeley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.276932 , 37.86322</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C032</name>
+<description>-122.157593 , 38.082508&lt;br/&gt;McCall Dr Benicia</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.157593 , 38.082508</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C033</name>
+<description>-122.289543 , 37.846699&lt;br/&gt;Glashaus Lp Emeryville</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.289543 , 37.846699</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C034</name>
+<description>-121.963318 , 37.5728&lt;br/&gt;Goodrich Wy Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.963318 , 37.5728</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C035</name>
+<description>-122.026917 , 37.969803&lt;br/&gt;Crawford St Concord</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.026917 , 37.969803</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C036</name>
+<description>-121.793114 , 37.380238&lt;br/&gt;Merkley Row San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.793114 , 37.380238</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C037</name>
+<description>-121.88485 , 37.355148&lt;br/&gt;N 15th St San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.88485 , 37.355148</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C038</name>
+<description>-122.176537 , 37.720459&lt;br/&gt;Hutchings Dr San Leandro</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.176537 , 37.720459</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C039</name>
+<description>-121.911598 , 37.467072&lt;br/&gt;Semillon Dr Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.911598 , 37.467072</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C040</name>
+<description>-122.314095 , 37.989658&lt;br/&gt;Flannery Rd San Pablo</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.314095 , 37.989658</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C041</name>
+<description>-121.826088 , 37.375698&lt;br/&gt;El Campo Dr San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.826088 , 37.375698</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C042</name>
+<description>-122.127678 , 37.822262&lt;br/&gt;Juniper Wy Moraga</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.127678 , 37.822262</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C043</name>
+<description>-122.24855 , 37.868481&lt;br/&gt;Panorama Wy Berkeley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.24855 , 37.868481</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C044</name>
+<description>-122.231194 , 37.730778&lt;br/&gt;Maitland Dr Alameda</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.231194 , 37.730778</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C045</name>
+<description>-121.96196 , 37.749619&lt;br/&gt;Hawkins Dr San Ramon</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.96196 , 37.749619</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C046</name>
+<description>-121.882538 , 37.35363&lt;br/&gt;N 16th St San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.882538 , 37.35363</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C047</name>
+<description>-122.020287 , 37.829147&lt;br/&gt;Rutherford Dr Danville</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.020287 , 37.829147</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C048</name>
+<description>-121.991661 , 37.575089&lt;br/&gt;Posada Way Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.991661 , 37.575089</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C049</name>
+<description>-122.278458 , 37.7766&lt;br/&gt;Pacific Av Alameda</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.278458 , 37.7766</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C050</name>
+<description>-121.925606 , 37.523972&lt;br/&gt;Festivo Ct Fremont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.925606 , 37.523972</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C051</name>
+<description>-122.238609 , 37.746651&lt;br/&gt;Centre Ct Alameda</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.238609 , 37.746651</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C052</name>
+<description>-121.806625 , 37.296249&lt;br/&gt;Regaby Place Ct San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.806625 , 37.296249</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C053</name>
+<description>-121.873352 , 37.68539&lt;br/&gt;Alexander Wy Pleasanton</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.873352 , 37.68539</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C054</name>
+<description>-121.824417 , 37.271191&lt;br/&gt;Valleyhaven Wy San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.824417 , 37.271191</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C055</name>
+<description>-122.110352 , 37.657448&lt;br/&gt;Cottonwood Av Hayward</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.110352 , 37.657448</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C056</name>
+<description>-122.126358 , 37.636311&lt;br/&gt;Diablo Av Hayward</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.126358 , 37.636311</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C057</name>
+<description>-121.697876 , 37.95554&lt;br/&gt;Hedge Av Brentwood</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.697876 , 37.95554</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C058</name>
+<description>-122.225761 , 37.75642&lt;br/&gt;Eastshore Dr Alameda</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.225761 , 37.75642</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C059</name>
+<description>-121.772369 , 37.342571&lt;br/&gt;Quail Canyon Rd San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.772369 , 37.342571</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C060</name>
+<description>-122.027122 , 37.58482&lt;br/&gt;Lambert Pl Union City</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.027122 , 37.58482</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C061</name>
+<description>-122.209702 , 37.777912&lt;br/&gt;42nd Av Oakland</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.209702 , 37.777912</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C062</name>
+<description>-121.903427 , 37.66753&lt;br/&gt;Calle Reynoso Pleasanton</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.903427 , 37.66753</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C063</name>
+<description>-122.189087 , 37.765137&lt;br/&gt;Havenscourt Bl Oakland</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.189087 , 37.765137</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C064</name>
+<description>-122.18457 , 37.805119&lt;br/&gt;Brunell Dr Oakland #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.18457 , 37.805119</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C065</name>
+<description>-122.275887 , 37.96294&lt;br/&gt;Ponderosa El Sobrante</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.275887 , 37.96294</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C066</name>
+<description>-122.285843 , 37.913239&lt;br/&gt;Highgate Rd Kensington</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.285843 , 37.913239</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C067</name>
+<description>-122.289551 , 37.976093&lt;br/&gt;Fleetwood El Sobrante</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.289551 , 37.976093</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C068</name>
+<description>-122.074051 , 37.644638&lt;br/&gt;Mocine Ave Hayward</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.074051 , 37.644638</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C069</name>
+<description>-121.896057 , 37.647751&lt;br/&gt;Rotal Creek Pleasanton</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.896057 , 37.647751</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C070</name>
+<description>-122.131828 , 37.702782&lt;br/&gt;Dillo St San Leandro</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.131828 , 37.702782</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C071</name>
+<description>-122.133217 , 37.682144&lt;br/&gt;Via Corta San Lorenzo</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.133217 , 37.682144</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C072</name>
+<description>-121.75589 , 37.285805&lt;br/&gt;Blauer Lane San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.75589 , 37.285805</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.C073</name>
+<description>-122.05423 , 37.655788&lt;br/&gt;Carlos Bee Bl Hayward</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.05423 , 37.655788</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CADB</name>
+<description>-121.62645 , 37.16346&lt;br/&gt;Anderson Reservoir #4</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.62645 , 37.16346</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CAG</name>
+<description>-122.422661 , 37.857269&lt;br/&gt;Angel Island #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.422661 , 37.857269</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CAL</name>
+<description>-121.800369 , 37.450348&lt;br/&gt;Calaveras Reservoir #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.800369 , 37.450348</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CBP</name>
+<description>-121.708427 , 37.747665&lt;br/&gt;Brushy Peak</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.708427 , 37.747665</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CBR</name>
+<description>-122.063019 , 37.816471&lt;br/&gt;Bollinger Canyon Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.063019 , 37.816471</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CCO</name>
+<description>-121.674568 , 37.258217&lt;br/&gt;Coe Ranch #1</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.674568 , 37.258217</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CCOB</name>
+<description>-121.673119 , 37.258984&lt;br/&gt;Coe Ranch #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.673119 , 37.258984</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CDOB</name>
+<description>-121.833458 , 37.729401&lt;br/&gt;Doolan Road</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.833458 , 37.729401</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CHR</name>
+<description>-121.768867 , 37.372883&lt;br/&gt;Mt Hamilton Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.768867 , 37.372883</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CLCB</name>
+<description>-122.064865 , 37.737865&lt;br/&gt;Lake Chabot</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.064865 , 37.737865</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CMC</name>
+<description>-122.176804 , 37.781101&lt;br/&gt;Mills College #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.176804 , 37.781101</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CMOB</name>
+<description>-121.802719 , 37.810417&lt;br/&gt;Morgan Territory</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.802719 , 37.810417</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CNI</name>
+<description>-121.964561 , 37.607948&lt;br/&gt;Niles Canyon</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.964561 , 37.607948</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CPI</name>
+<description>-122.215607 , 37.988903&lt;br/&gt;Pinole Ridge</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.215607 , 37.988903</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CPM</name>
+<description>-122.408508 , 37.949062&lt;br/&gt;Point Molate</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.408508 , 37.949062</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CRH</name>
+<description>-121.992638 , 37.858841&lt;br/&gt;Round Hill Res</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.992638 , 37.858841</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CRPB</name>
+<description>-121.907158 , 37.912331&lt;br/&gt;Russellman Park</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.907158 , 37.912331</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CSL</name>
+<description>-122.119293 , 37.724159&lt;br/&gt;San Leandro Hills</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.119293 , 37.724159</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CSPB</name>
+<description>-122.311302 , 37.957161&lt;br/&gt;San Pablo Ridge #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.311302 , 37.957161</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CTA</name>
+<description>-122.015991 , 38.026909&lt;br/&gt;Taylor</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.015991 , 38.026909</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CUSLD</name>
+<description>-122.092201 , 37.764759&lt;br/&gt;Upper San Leandro Dam</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.092201 , 37.764759</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CVL</name>
+<description>-121.836411 , 37.623592&lt;br/&gt;Vallecitos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.836411 , 37.623592</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CYB</name>
+<description>-122.361801 , 37.807873&lt;br/&gt;Yerba Buena Island</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.361801 , 37.807873</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.CYD</name>
+<description>-122.09655 , 37.562767&lt;br/&gt;Coyote Hills #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.09655 , 37.562767</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.G001</name>
+<description>-123.48893 , 38.73782&lt;br/&gt;Leeward Rd Sea Ranch</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.48893 , 38.73782</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.G002</name>
+<description>-123.783699 , 39.591915&lt;br/&gt;N Highway 1 Fort Bragg</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.783699 , 39.591915</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.G003</name>
+<description>-123.802948 , 39.304501&lt;br/&gt;Main St Mendocino</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.802948 , 39.304501</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.G004</name>
+<description>-123.451233 , 38.710251&lt;br/&gt;Albatross Reach Sea Ranch</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.451233 , 38.710251</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.G005</name>
+<description>-123.319794 , 38.592064&lt;br/&gt;Kruse Ranch Rd Cazadero</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.319794 , 38.592064</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.G006</name>
+<description>-123.468155 , 39.132172&lt;br/&gt;Big Meadow Rd Philo</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.468155 , 39.132172</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.G007</name>
+<description>-123.680847 , 39.02153&lt;br/&gt;Forest View Rd Manchester</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.680847 , 39.02153</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.GAXB</name>
+<description>-122.757332 , 38.710732&lt;br/&gt;Alexander Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.757332 , 38.710732</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.GCVB</name>
+<description>-123.01487 , 38.769268&lt;br/&gt;Cloverdale #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.01487 , 38.769268</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.GDXB</name>
+<description>-122.795303 , 38.807968&lt;br/&gt;Geysers</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.795303 , 38.807968</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.H001</name>
+<description>-121.740196 , 36.922497&lt;br/&gt;Cloudview Dr Watsonville</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.740196 , 36.922497</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.H002</name>
+<description>-121.647385 , 36.87709&lt;br/&gt;Rancho Rea Rd Aromas</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.647385 , 36.87709</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.HCAB</name>
+<description>-121.484535 , 37.025368&lt;br/&gt;Canada Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.484535 , 37.025368</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.HMOB</name>
+<description>-121.918144 , 36.599346&lt;br/&gt;Monterey #4</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.918144 , 36.599346</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.HTU</name>
+<description>-121.643486 , 36.826817&lt;br/&gt;Tustin Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.643486 , 36.826817</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J001</name>
+<description>-122.392273 , 37.592735&lt;br/&gt;Sequoia Av Millbrae</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.392273 , 37.592735</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J002</name>
+<description>-122.153587 , 37.367748&lt;br/&gt;Windsor Ct Los Altos Hills</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.153587 , 37.367748</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J003</name>
+<description>-122.13472 , 37.436401&lt;br/&gt;Middlefield Rd Palo Alto</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.13472 , 37.436401</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J004</name>
+<description>-122.036446 , 37.317459&lt;br/&gt;Tonita Wy Cupertino</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.036446 , 37.317459</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J005</name>
+<description>-121.960457 , 37.296062&lt;br/&gt;Merrimac Dr Campbell</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.960457 , 37.296062</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J006</name>
+<description>-122.101967 , 37.356853&lt;br/&gt;Magdalena Av Los Altos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.101967 , 37.356853</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J007</name>
+<description>-122.244667 , 37.492363&lt;br/&gt;Finger Av Redwood City</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.244667 , 37.492363</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J008</name>
+<description>-122.188164 , 37.475922&lt;br/&gt;18th Av Menlo Park</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.188164 , 37.475922</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J009</name>
+<description>-122.511726 , 37.519733&lt;br/&gt;Orval Av Moss Beach</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.511726 , 37.519733</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J010</name>
+<description>-122.436234 , 37.457958&lt;br/&gt;Filbert St Half Moon Bay</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.436234 , 37.457958</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J011</name>
+<description>-122.213707 , 37.369469&lt;br/&gt;Crescent Av Portola Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.213707 , 37.369469</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J012</name>
+<description>-122.106934 , 37.405994&lt;br/&gt;Sondgroth Wy Mountain View</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.106934 , 37.405994</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J013</name>
+<description>-122.46669 , 37.756023&lt;br/&gt;10th Av San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.46669 , 37.756023</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J014</name>
+<description>-122.189621 , 37.416512&lt;br/&gt;Homer Ln Menlo Park</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.189621 , 37.416512</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J015</name>
+<description>-121.876114 , 37.331871&lt;br/&gt;S 9th St San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.876114 , 37.331871</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J016</name>
+<description>-122.251671 , 37.457443&lt;br/&gt;Sony Hill Redwood City</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.251671 , 37.457443</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J017</name>
+<description>-122.228989 , 37.461205&lt;br/&gt;Valota Rd Redwood City</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.228989 , 37.461205</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J018</name>
+<description>-122.073547 , 37.319592&lt;br/&gt;Lebanon Dr Cupertino</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.073547 , 37.319592</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J019</name>
+<description>-122.198349 , 37.434326&lt;br/&gt;Santa Cruz Av Menlo Park</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.198349 , 37.434326</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J020</name>
+<description>-122.441139 , 37.766033&lt;br/&gt;Buena Vista Av San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.441139 , 37.766033</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J021</name>
+<description>-122.236557 , 37.356548&lt;br/&gt;Alpine Rd Portola Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.236557 , 37.356548</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J022</name>
+<description>-122.44516 , 37.629978&lt;br/&gt;Cottonwood Dr San Bruno</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.44516 , 37.629978</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J023</name>
+<description>-122.346939 , 37.525528&lt;br/&gt;Bunker Hill Dr San Mateo</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.346939 , 37.525528</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J024</name>
+<description>-122.085373 , 37.402103&lt;br/&gt;Canna Ct Mountain View</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.085373 , 37.402103</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J025</name>
+<description>-122.072548 , 37.394753&lt;br/&gt;Jason Wy Mountain View</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.072548 , 37.394753</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J026</name>
+<description>-122.023911 , 37.34935&lt;br/&gt;Barnsley Wy Sunnyvale</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.023911 , 37.34935</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J027</name>
+<description>-122.084167 , 37.347603&lt;br/&gt;Montclaire Ct Los Altos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.084167 , 37.347603</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J028</name>
+<description>-122.22319 , 37.387951&lt;br/&gt;Larguita Ln Portola Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.22319 , 37.387951</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J029</name>
+<description>-122.493813 , 37.634148&lt;br/&gt;San Jose Av Pacifica</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.493813 , 37.634148</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J030</name>
+<description>-122.121048 , 37.3862&lt;br/&gt;Los Altos Av Los Altos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.121048 , 37.3862</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J031</name>
+<description>-122.482422 , 37.581299&lt;br/&gt;Madeira Dr Pacifica</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.482422 , 37.581299</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J032</name>
+<description>-122.414993 , 37.631451&lt;br/&gt;Euclid Av San Bruno</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.414993 , 37.631451</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J033</name>
+<description>-122.195824 , 37.452854&lt;br/&gt;Emilie Av Atherton</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.195824 , 37.452854</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J034</name>
+<description>-122.113449 , 37.370224&lt;br/&gt;Orange Av Los Altos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.113449 , 37.370224</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J035</name>
+<description>-122.378021 , 37.557804&lt;br/&gt;Darrell Rd Hillsborough</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.378021 , 37.557804</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J036</name>
+<description>-122.297813 , 37.528355&lt;br/&gt;Bayview Av San Mateo</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.297813 , 37.528355</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J037</name>
+<description>-122.237541 , 37.536282&lt;br/&gt;Columbia Cr Redwood City</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.237541 , 37.536282</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J038</name>
+<description>-121.965866 , 37.33205&lt;br/&gt;Golf Links Cr Santa Clara</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.965866 , 37.33205</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J039</name>
+<description>-122.45285 , 37.621201&lt;br/&gt;Merced Dr San Bruno</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.45285 , 37.621201</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J040</name>
+<description>-122.434738 , 37.804688&lt;br/&gt;Beach St San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.434738 , 37.804688</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J041</name>
+<description>-122.441444 , 37.800491&lt;br/&gt;Scott St San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.441444 , 37.800491</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J042</name>
+<description>-122.436043 , 37.806194&lt;br/&gt;Marina Bl San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.436043 , 37.806194</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J043</name>
+<description>-122.295486 , 37.560108&lt;br/&gt;Fillmore Av San Mateo</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.295486 , 37.560108</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J044</name>
+<description>-122.264442 , 37.37096&lt;br/&gt;La Honda Rd Woodside</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.264442 , 37.37096</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J045</name>
+<description>-122.301033 , 37.523643&lt;br/&gt;Forest Av Belmont</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.301033 , 37.523643</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J046</name>
+<description>-121.968987 , 37.256607&lt;br/&gt;Strathmore Pl Los Gatos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.968987 , 37.256607</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J047</name>
+<description>-121.870613 , 37.207901&lt;br/&gt;Hillcrest Dr San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.870613 , 37.207901</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J048</name>
+<description>-122.018761 , 37.193752&lt;br/&gt;Black Rd Los Gatos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.018761 , 37.193752</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J049</name>
+<description>-122.458687 , 37.588139&lt;br/&gt;Big Bend Dr Pacifica</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.458687 , 37.588139</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J050</name>
+<description>-122.477852 , 37.61113&lt;br/&gt;Juanita Av Pacifica</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.477852 , 37.61113</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J051</name>
+<description>-122.007835 , 37.312901&lt;br/&gt;So Tantau Av Cupertino</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.007835 , 37.312901</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J052</name>
+<description>-122.24456 , 37.299629&lt;br/&gt;Heritage Rd La Honda</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.24456 , 37.299629</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J053</name>
+<description>-122.160629 , 37.288418&lt;br/&gt;Portola Heights Rd La Honda</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.160629 , 37.288418</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J054</name>
+<description>-121.824806 , 37.246849&lt;br/&gt;Chandler St San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.824806 , 37.246849</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J055</name>
+<description>-121.922073 , 37.39999&lt;br/&gt;Milan Dr San Jose</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.922073 , 37.39999</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J056</name>
+<description>-122.442886 , 37.778343&lt;br/&gt;Golden Gate Av San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.442886 , 37.778343</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J057</name>
+<description>-122.463875 , 37.78796&lt;br/&gt;5th Av San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.463875 , 37.78796</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J058</name>
+<description>-121.827271 , 36.998039&lt;br/&gt;Oak Tree Lake Aptos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.827271 , 36.998039</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J059</name>
+<description>-122.452751 , 37.489326&lt;br/&gt;Washington Bl Half Moon Bay</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.452751 , 37.489326</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J060</name>
+<description>-122.405266 , 37.712742&lt;br/&gt;Alpha St San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.405266 , 37.712742</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J061</name>
+<description>-122.497421 , 37.730572&lt;br/&gt;Lakeshore Dr San Francisco</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.497421 , 37.730572</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J062</name>
+<description>-122.265808 , 37.562637&lt;br/&gt;Challenge Ct Foster City</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.265808 , 37.562637</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J063</name>
+<description>-122.127068 , 37.017448&lt;br/&gt;Smith Gr. Bonny Doon</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.127068 , 37.017448</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J064</name>
+<description>-122.323967 , 37.420303&lt;br/&gt;Swett Rd. Woodside</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.323967 , 37.420303</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J065</name>
+<description>-122.051247 , 37.34322&lt;br/&gt;Samedra St. Sunnyvale</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.051247 , 37.34322</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J066</name>
+<description>-121.876762 , 37.101082&lt;br/&gt;Loma Prieta Wy Los Gatos</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.876762 , 37.101082</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.J067</name>
+<description>-122.340958 , 37.554142&lt;br/&gt;Reservoir Rd Hillsboro</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.340958 , 37.554142</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JBG</name>
+<description>-122.33976 , 37.343048&lt;br/&gt;Bear Gulch Road #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.33976 , 37.343048</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JBMB</name>
+<description>-122.153145 , 37.318607&lt;br/&gt;Black Mountain #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.153145 , 37.318607</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JBN</name>
+<description>-122.156715 , 37.123245&lt;br/&gt;Ben Lomond Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.156715 , 37.123245</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JBNB</name>
+<description>-122.155197 , 37.120449&lt;br/&gt;Ben Lomond Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.155197 , 37.120449</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JBR</name>
+<description>-122.011208 , 37.172169&lt;br/&gt;Bear Creek Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.011208 , 37.172169</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JCH</name>
+<description>-122.377304 , 37.517036&lt;br/&gt;Cahill Ridge</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.377304 , 37.517036</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JECB</name>
+<description>-121.807236 , 37.049225&lt;br/&gt;Eureka Canyon Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.807236 , 37.049225</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JELB</name>
+<description>-121.827637 , 36.927448&lt;br/&gt;Ellicott</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.827637 , 36.927448</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JFP</name>
+<description>-122.189857 , 37.360447&lt;br/&gt;Foothills Park</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.189857 , 37.360447</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JGR</name>
+<description>-122.458153 , 37.516041&lt;br/&gt;El Granada #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.458153 , 37.516041</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JHU</name>
+<description>-122.171677 , 37.214272&lt;br/&gt;Huhtala Ln</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.171677 , 37.214272</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JJO</name>
+<description>-121.977257 , 37.20631&lt;br/&gt;St Josephs Hill</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.977257 , 37.20631</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JLAB</name>
+<description>-121.734673 , 37.15432&lt;br/&gt;Laurel Hill</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.734673 , 37.15432</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JMGB</name>
+<description>-122.474823 , 37.637192&lt;br/&gt;Milagra Ridge #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.474823 , 37.637192</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JPC</name>
+<description>-122.212761 , 37.270802&lt;br/&gt;Peters Creek</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.212761 , 37.270802</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JPR</name>
+<description>-122.474953 , 37.795269&lt;br/&gt;Presidio S.F. #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.474953 , 37.795269</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JPSB</name>
+<description>-122.34671 , 37.198551&lt;br/&gt;Pescadero #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.34671 , 37.198551</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JSA</name>
+<description>-122.420059 , 37.582249&lt;br/&gt;San Andreas Reservoir</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.420059 , 37.582249</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JSB</name>
+<description>-122.398552 , 37.674332&lt;br/&gt;San Bruno Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.398552 , 37.674332</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JSFB</name>
+<description>-122.175957 , 37.403721&lt;br/&gt;Stanford Telescope</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.175957 , 37.403721</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JSGB</name>
+<description>-122.050171 , 37.28397&lt;br/&gt;Saratoga Golf Course</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.050171 , 37.28397</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JSP</name>
+<description>-122.502167 , 37.586441&lt;br/&gt;San Pedro Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.502167 , 37.586441</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.JUM</name>
+<description>-121.898994 , 37.160671&lt;br/&gt;Mount Umunhum</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.898994 , 37.160671</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.K001</name>
+<description>-124.175247 , 41.807095&lt;br/&gt;James Rd Crescent City</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.175247 , 41.807095</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.K002</name>
+<description>-124.01931 , 41.363411&lt;br/&gt;Newton B Drury Pky Orick</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.01931 , 41.363411</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.K003</name>
+<description>-124.099701 , 40.935638&lt;br/&gt;Sutter Rd McKinleyville</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.099701 , 40.935638</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.K004</name>
+<description>-124.119537 , 40.246887&lt;br/&gt;Old Hinley Ranch Rd Honeydew</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.119537 , 40.246887</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KBO</name>
+<description>-124.225983 , 42.212357&lt;br/&gt;Bosley Butte</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.225983 , 42.212357</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KCPB</name>
+<description>-123.58242 , 39.68631&lt;br/&gt;Cahto Peak #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.58242 , 39.68631</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KCT</name>
+<description>-124.337486 , 40.475567&lt;br/&gt;Cape Town</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.337486 , 40.475567</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KEB</name>
+<description>-124.334251 , 42.872211&lt;br/&gt;Edson Butte Ore.</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.334251 , 42.872211</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KHBB</name>
+<description>-123.219658 , 40.659901&lt;br/&gt;Hayfork Bally</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.219658 , 40.659901</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KHMB</name>
+<description>-123.73259 , 40.874748&lt;br/&gt;Horse Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.73259 , 40.874748</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KMPB</name>
+<description>-124.120758 , 40.417194&lt;br/&gt;Mount Pierce</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.120758 , 40.417194</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KMR</name>
+<description>-123.708633 , 40.202175&lt;br/&gt;Mail Ridge</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.708633 , 40.202175</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KRMB</name>
+<description>-123.907974 , 41.522957&lt;br/&gt;Red Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.907974 , 41.522957</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KRP</name>
+<description>-124.0233 , 41.157654&lt;br/&gt;Rodgers #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-124.0233 , 41.157654</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.KSXB</name>
+<description>-123.876884 , 41.830379&lt;br/&gt;Camp Six</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.876884 , 41.830379</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.L001</name>
+<description>-121.075737 , 40.225349&lt;br/&gt;Dorado Inn Lake Almanor CA</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.075737 , 40.225349</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.L002</name>
+<description>-121.072609 , 40.171329&lt;br/&gt;Quail Lodge Canyondam CA</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.072609 , 40.171329</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.L003</name>
+<description>-120.965401 , 40.162472&lt;br/&gt;Greenville CA</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.965401 , 40.162472</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.LDH</name>
+<description>-121.581596 , 40.511902&lt;br/&gt;Deep Hole (Lassen)</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.581596 , 40.511902</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.LMC</name>
+<description>-122.121971 , 41.274158&lt;br/&gt;McCloud</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.121971 , 41.274158</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.LSM</name>
+<description>-121.302826 , 40.279812&lt;br/&gt;Stover Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.302826 , 40.279812</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MBE</name>
+<description>-119.28286 , 36.745384&lt;br/&gt;Bear Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.28286 , 36.745384</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MBU</name>
+<description>-120.075615 , 37.559734&lt;br/&gt;Mt. Bullion</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.075615 , 37.559734</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MCB</name>
+<description>-118.896835 , 37.644394&lt;br/&gt;Casa Benchmark</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.896835 , 37.644394</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MCO</name>
+<description>-118.862953 , 37.618992&lt;br/&gt;Convict Moraine #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.862953 , 37.618992</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MCS</name>
+<description>-118.905762 , 37.654873&lt;br/&gt;Casa Diablo Hot Spring</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.905762 , 37.654873</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MCV</name>
+<description>-118.829109 , 37.590027&lt;br/&gt;Convict Lake #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.829109 , 37.590027</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MCY</name>
+<description>-119.029137 , 37.642929&lt;br/&gt;Mammoth Mtn McCoy #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.029137 , 37.642929</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MDC</name>
+<description>-119.041832 , 37.70969&lt;br/&gt;Deadman Creek #1</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.041832 , 37.70969</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MDH</name>
+<description>-118.908821 , 37.679752&lt;br/&gt;Mammoth Hole surface</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.908821 , 37.679752</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MDP</name>
+<description>-119.07972 , 37.632462&lt;br/&gt;Devils Postpile</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.07972 , 37.632462</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MDPB</name>
+<description>-119.079353 , 37.632267&lt;br/&gt;Devils Postpile</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.079353 , 37.632267</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MDY</name>
+<description>-119.012154 , 37.658039&lt;br/&gt;Dry Creek</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.012154 , 37.658039</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MHD</name>
+<description>-119.894958 , 37.117069&lt;br/&gt;Hidden Dam #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.894958 , 37.117069</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MINS</name>
+<description>-119.060928 , 37.65377&lt;br/&gt;Minaret Summit</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.060928 , 37.65377</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MLI</name>
+<description>-119.017906 , 37.636761&lt;br/&gt;Lincoln Peak</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.017906 , 37.636761</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MMI</name>
+<description>-119.743813 , 37.419617&lt;br/&gt;Miami Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.743813 , 37.419617</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MMLB</name>
+<description>-118.979065 , 37.659092&lt;br/&gt;Mammoth Lakes Knolls</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.979065 , 37.659092</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MMP</name>
+<description>-119.028702 , 37.609707&lt;br/&gt;Mammoth Pass</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.028702 , 37.609707</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MMT</name>
+<description>-119.179619 , 37.376038&lt;br/&gt;Mount Tom</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.179619 , 37.376038</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MNP</name>
+<description>-119.727997 , 37.414833&lt;br/&gt;Nipinnawassee #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.727997 , 37.414833</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MQ1P</name>
+<description>-119.021309 , 37.612782&lt;br/&gt;Mammoth Mtn Horseshoe</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.021309 , 37.612782</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MQ2P</name>
+<description>-119.029099 , 37.643108&lt;br/&gt;Mammoth Mtn McCoy #1</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.029099 , 37.643108</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MQ3P</name>
+<description>-119.006866 , 37.61713&lt;br/&gt;Mammoth Mtn Twin Lks</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.006866 , 37.61713</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MRH</name>
+<description>-119.087105 , 36.286282&lt;br/&gt;Rocky Hill</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.087105 , 36.286282</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MSL</name>
+<description>-118.956573 , 37.616718&lt;br/&gt;Sherwin Lakes</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.956573 , 37.616718</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MTC</name>
+<description>-118.966064 , 37.63155&lt;br/&gt;Tac Room Lo Gain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.966064 , 37.63155</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.MTU</name>
+<description>-118.563263 , 37.352882&lt;br/&gt;Tungsten Hills #1</description>
+<MultiGeometry>
+<Point>
+<coordinates>-118.563263 , 37.352882</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N001</name>
+<description>-122.494141 , 37.960415&lt;br/&gt;Baypoint Dr San Rafael</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.494141 , 37.960415</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N002</name>
+<description>-122.140739 , 38.182613&lt;br/&gt;Lynbrook Dr Fairfield</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.140739 , 38.182613</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N003</name>
+<description>-122.553757 , 38.108955&lt;br/&gt;Summers Av Novato</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.553757 , 38.108955</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N004</name>
+<description>-122.661362 , 38.449047&lt;br/&gt;Slate Dr Santa Rosa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.661362 , 38.449047</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N005</name>
+<description>-122.788361 , 38.534065&lt;br/&gt;Pan Abode Ct Santa Rosa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.788361 , 38.534065</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N006</name>
+<description>-122.709152 , 38.406288&lt;br/&gt;Courtyard Cir Santa Rosa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.709152 , 38.406288</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N007</name>
+<description>-122.69519 , 38.446449&lt;br/&gt;Alderbrook Dr Santa Rosa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.69519 , 38.446449</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N008</name>
+<description>-122.682053 , 38.428444&lt;br/&gt;Verdi Vista Dr Santa Rosa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.682053 , 38.428444</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N009</name>
+<description>-122.631638 , 38.351433&lt;br/&gt;Pressley Rd Santa Rosa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.631638 , 38.351433</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N010</name>
+<description>-122.7593 , 38.45293&lt;br/&gt;Burgundy Pl Santa Rosa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.7593 , 38.45293</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N011</name>
+<description>-122.680763 , 38.303661&lt;br/&gt;Old Redwood Hy Penngrove</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.680763 , 38.303661</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N012</name>
+<description>-122.490303 , 38.313808&lt;br/&gt;San Gabriel Dr Sonoma</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.490303 , 38.313808</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N013</name>
+<description>-122.550179 , 38.299305&lt;br/&gt;Mesquite Ct Sonoma</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.550179 , 38.299305</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N014</name>
+<description>-122.609909 , 38.247311&lt;br/&gt;Marguerite Wy Petaluma</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.609909 , 38.247311</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N015</name>
+<description>-122.720093 , 38.447731&lt;br/&gt;Benton St Santa Rosa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.720093 , 38.447731</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N016</name>
+<description>-122.284843 , 38.298752&lt;br/&gt;Main St Napa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.284843 , 38.298752</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N017</name>
+<description>-122.658661 , 38.05299&lt;br/&gt;Lucas Valley Nicasio</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.658661 , 38.05299</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N018</name>
+<description>-122.854378 , 38.096916&lt;br/&gt;Inverness Wy Inverness</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.854378 , 38.096916</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N019</name>
+<description>-122.401283 , 38.301113&lt;br/&gt;Lovall Valley Loop Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.401283 , 38.301113</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N019B</name>
+<description>-122.401543 , 38.300953&lt;br/&gt;Lovall Valley Loop Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.401543 , 38.300953</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N020</name>
+<description>-122.2948 , 38.296391&lt;br/&gt;2nd St Napa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.2948 , 38.296391</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.N021</name>
+<description>-122.287453 , 38.297359&lt;br/&gt;2nd and Randolf Napa</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.287453 , 38.297359</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NAPC</name>
+<description>-122.252716 , 38.439507&lt;br/&gt;Atlas Peak</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.252716 , 38.439507</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NBO</name>
+<description>-122.718056 , 37.92144&lt;br/&gt;Bolinas</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.718056 , 37.92144</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NBRB</name>
+<description>-122.551788 , 38.260208&lt;br/&gt;Beebe Ranch</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.551788 , 38.260208</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NCC</name>
+<description>-122.47467 , 38.001984&lt;br/&gt;China Camp</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.47467 , 38.001984</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NEA</name>
+<description>-122.943001 , 38.309883&lt;br/&gt;Estero Americano</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.943001 , 38.309883</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NEH</name>
+<description>-122.810822 , 38.336559&lt;br/&gt;English Hill</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.810822 , 38.336559</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NFV</name>
+<description>-122.896507 , 38.46769&lt;br/&gt;Forestville</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.896507 , 38.46769</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NGVB</name>
+<description>-122.21582 , 38.28043&lt;br/&gt;Green Valley Rd #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.21582 , 38.28043</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NHC</name>
+<description>-122.357674 , 38.21748&lt;br/&gt;Huichica Creek</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.357674 , 38.21748</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NHF</name>
+<description>-122.523315 , 38.049622&lt;br/&gt;Hamilton Field</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.523315 , 38.049622</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NHM</name>
+<description>-121.804382 , 38.154861&lt;br/&gt;Hamilton Ranch #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.804382 , 38.154861</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NHS</name>
+<description>-122.614418 , 38.656517&lt;br/&gt;Mt.St.Helena South</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.614418 , 38.656517</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NHV</name>
+<description>-122.712959 , 38.164879&lt;br/&gt;Hicks Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.712959 , 38.164879</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NLH</name>
+<description>-122.149216 , 38.122814&lt;br/&gt;Lake Herman</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.149216 , 38.122814</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NMH</name>
+<description>-122.633194 , 38.669399&lt;br/&gt;Mt. St. Helena #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.633194 , 38.669399</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NMI</name>
+<description>-122.258499 , 38.076012&lt;br/&gt;Mare Island</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.258499 , 38.076012</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NOLB</name>
+<description>-122.796837 , 38.04248&lt;br/&gt;Olema #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.796837 , 38.04248</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NPRB</name>
+<description>-123.019493 , 37.996422&lt;br/&gt;Point Reyes</description>
+<MultiGeometry>
+<Point>
+<coordinates>-123.019493 , 37.996422</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NSM</name>
+<description>-122.57795 , 38.348785&lt;br/&gt;Sonoma Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.57795 , 38.348785</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NSP</name>
+<description>-122.464401 , 38.200253&lt;br/&gt;Sears Point #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.464401 , 38.200253</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NTAB</name>
+<description>-122.598289 , 37.923069&lt;br/&gt;Tamalpais Peak</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.598289 , 37.923069</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NTAC</name>
+<description>-122.596481 , 37.923717&lt;br/&gt;Tamalpais Peak FAA</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.596481 , 37.923717</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NTO</name>
+<description>-122.449692 , 38.143608&lt;br/&gt;Tolay Creek</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.449692 , 38.143608</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NTR</name>
+<description>-122.798424 , 38.240391&lt;br/&gt;Two Rock</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.798424 , 38.240391</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.NTYB</name>
+<description>-122.662971 , 38.38921&lt;br/&gt;Taylor Mountain #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.662971 , 38.38921</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PAD</name>
+<description>-120.866219 , 35.640049&lt;br/&gt;Adelaida</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.866219 , 35.640049</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PAGB</name>
+<description>-120.249863 , 35.730652&lt;br/&gt;Antelope Grade</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.249863 , 35.730652</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PAN</name>
+<description>-120.907135 , 35.780056&lt;br/&gt;San Antonio Reservoir</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.907135 , 35.780056</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PAP</name>
+<description>-121.366852 , 35.895855&lt;br/&gt;Alder Peak #1</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.366852 , 35.895855</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PAR</name>
+<description>-120.342773 , 36.249279&lt;br/&gt;Anticline Ridge</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.342773 , 36.249279</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PBI</name>
+<description>-120.474968 , 35.1614&lt;br/&gt;Biddle #1</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.474968 , 35.1614</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PBIB</name>
+<description>-120.475166 , 35.1614&lt;br/&gt;Biddle #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.475166 , 35.1614</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PBM</name>
+<description>-120.353897 , 35.394451&lt;br/&gt;Black Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.353897 , 35.394451</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PBP</name>
+<description>-120.077484 , 35.579121&lt;br/&gt;Bitterwater Pump Sta.</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.077484 , 35.579121</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PCR</name>
+<description>-120.435753 , 36.093887&lt;br/&gt;Curry Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.435753 , 36.093887</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PGW</name>
+<description>-120.626999 , 35.183834&lt;br/&gt;Grace West</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.626999 , 35.183834</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PHC</name>
+<description>-121.153725 , 35.682163&lt;br/&gt;Hearst Castle</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.153725 , 35.682163</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PHOB</name>
+<description>-120.479607 , 35.866611&lt;br/&gt;Hog Canyon #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.479607 , 35.866611</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PHR</name>
+<description>-120.818947 , 36.373024&lt;br/&gt;Hernandez Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.818947 , 36.373024</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PHSB</name>
+<description>-121.053932 , 35.824039&lt;br/&gt;Hesperia #3</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.053932 , 35.824039</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PIR</name>
+<description>-120.223343 , 35.554401&lt;br/&gt;Iverson Ranch</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.223343 , 35.554401</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PIV</name>
+<description>-120.682335 , 35.906502&lt;br/&gt;Indian Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.682335 , 35.906502</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PJU</name>
+<description>-120.593521 , 36.226974&lt;br/&gt;Juniper Ridge</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.593521 , 36.226974</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PKE</name>
+<description>-120.109634 , 36.061031&lt;br/&gt;Kettleman Hills</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.109634 , 36.061031</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PKY</name>
+<description>-120.66658 , 35.264&lt;br/&gt;KSLY- San Luis Obispo #1</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.66658 , 35.264</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PLO</name>
+<description>-121.042953 , 36.246326&lt;br/&gt;Lonoak Rd</description>
+<MultiGeometry>
+<Point>
+<coordinates>-121.042953 , 36.246326</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PMC</name>
+<description>-120.370621 , 35.725224&lt;br/&gt;Mcmillan Canyon</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.370621 , 35.725224</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PMG</name>
+<description>-120.520065 , 35.429794&lt;br/&gt;Santa Margarita</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.520065 , 35.429794</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PML</name>
+<description>-120.609268 , 34.894722&lt;br/&gt;Mount Lospe #2</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.609268 , 34.894722</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PMPB</name>
+<description>-120.801262 , 36.215904&lt;br/&gt;Monarch Peak</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.801262 , 36.215904</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PPB</name>
+<description>-120.8862 , 35.260967&lt;br/&gt;Point Buchon</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.8862 , 35.260967</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PPG</name>
+<description>-119.956451 , 35.862637&lt;br/&gt;Pepper Grass Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-119.956451 , 35.862637</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PPR</name>
+<description>-120.700668 , 35.647667&lt;br/&gt;Paso Robles</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.700668 , 35.647667</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PPT</name>
+<description>-120.724228 , 36.109127&lt;br/&gt;Peach Tree Valley</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.724228 , 36.109127</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PRC</name>
+<description>-120.618149 , 36.255314&lt;br/&gt;Roach Canyon</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.618149 , 36.255314</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PSA</name>
+<description>-120.889236 , 36.024658&lt;br/&gt;San Ardo</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.889236 , 36.024658</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PSC</name>
+<description>-120.426331 , 35.588333&lt;br/&gt;Shedd Canyon #1</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.426331 , 35.588333</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PSH</name>
+<description>-120.415337 , 35.590832&lt;br/&gt;Shandon</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.415337 , 35.590832</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PSM</name>
+<description>-120.596184 , 36.068806&lt;br/&gt;Smith Mountain</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.596184 , 36.068806</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PTA</name>
+<description>-120.707794 , 35.392475&lt;br/&gt;Tassajara Creek</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.707794 , 35.392475</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PTQ</name>
+<description>-120.573975 , 34.581875&lt;br/&gt;Tranquillion Mtn</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.573975 , 34.581875</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PTR</name>
+<description>-120.213318 , 35.654152&lt;br/&gt;Twissleman Ranch</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.213318 , 35.654152</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.PWM</name>
+<description>-120.212364 , 36.432682&lt;br/&gt;Westland Maint Station</description>
+<MultiGeometry>
+<Point>
+<coordinates>-120.212364 , 36.432682</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<Style>
+<IconStyle>
+<scale>5.0</scale>
+<Icon>
+<href>http://scedc.caltech.edu/mapicons/smallbluetriangle.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<name>NC.RWSVT</name>
+<description>-122.263023 , 37.94408&lt;br/&gt;San Pablo Dam</description>
+<MultiGeometry>
+<Point>
+<coordinates>-122.263023 , 37.94408</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>
