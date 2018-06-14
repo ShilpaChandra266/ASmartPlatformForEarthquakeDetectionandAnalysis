@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Platform for Earthquake Detection </title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Font Awesome -->
+     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- iCheck -->
+
+  <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
+  <!-- Morris chart -->
+  <link rel="stylesheet" href="plugins/morris/morris.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker-bs3.css">
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    </script>
+ 
+  <script type="text/javascript">
+    
+    function todayDate(day){
+    	var today = new Date();
+    	var dd = today.getDate();
+
+    	var mm = today.getMonth()+1; 
+    	var yyyy = today.getFullYear();
+    	 
+    	switch(day){		
+    	case 1:
+    			{  dd=dd-7;
+    			if(dd<0){
+    				dd+=30;
+    				mm--;
+    				if(mm<=0){
+    					mm=12;
+    					yyyy--;
+    				}
+    			}
+    			break;
+    		 }
+    	case 2:{
+    		mm--;
+    		if(mm<=0){
+    			mm=12;
+    			yyyy--;
+    		}
+    		break;
+    	}
+    	case 3:{
+    		yyyy--;
+    		break;
+    	}
+    	}
+    	if(dd<10) 
+    	{
+    	    dd='0'+dd;
+    	} 
+
+    	if(mm<10) 
+    	{
+    	    mm='0'+mm;
+    	}
+    	today = yyyy+'-'+mm+'-'+dd;
+	
+    	return today;
+    }
+    
+    
+      var HttpClient = function() {
+      this.get = function(aUrl, aCallback) {
+        var anHttpRequest = new XMLHttpRequest();
+        anHttpRequest.onreadystatechange = function() { 
+            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                aCallback(anHttpRequest.responseText);
+        }
+
+        anHttpRequest.open( "GET", aUrl, true );            
+        anHttpRequest.send( null );
+       }
+      }
+      var client = new HttpClient();
+
+     
+      endtime=todayDate(0);
+      pastweek=todayDate(1);
+      pastmonth=todayDate(2);
+      pastyear=todayDate(3);
+    //  console.log(starttime);
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastweek+'&endtime='+endtime+'&latitude=36.17&longitude=-119.7462&maxradius=6', function(response) {
+          document.getElementById('pastweek').innerHTML=response;
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastmonth+'&endtime='+endtime+'&latitude=36.17&longitude=-119.7462&maxradius=6', function(response) {
+          document.getElementById('pastmonth').innerHTML=response;
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime='+pastyear+'&endtime='+endtime+'&latitude=36.17&longitude=-119.7462&maxradius=6', function(response) {
+          document.getElementById('pastyear').innerHTML=response;
+      });
+     
+     
+      var mag_2,mag2_3,mag3_4,mag4_5,mag5;
+      var earthquake2018,earthquake2017,earthquake2016,earthquake2015,earthquake2014;
+     
+
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2014-01-1&endtime=2014-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2014=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2015-01-1&endtime=2015-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2015=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2016-01-1&endtime=2016-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2016=response;
+
+      });
+
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2017-01-1&endtime=2017-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2017=response;
+
+      });
+
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&starttime=2018-01-1&endtime=2018-12-31&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             earthquake2018=response;
+
+      });
+
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=1&maxmagnitude=2&starttime=2018-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             mag_2=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude=3&starttime=2018-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             mag2_3=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=3&maxmagnitude=4&starttime=2018-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             mag3_4=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=4&maxmagnitude=5&starttime=2017-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+             mag4_5=response;
+
+      });
+      client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=5&starttime=2017-02-26&endtime=2018-03-26&latitude=36.17&longitude=-119.7462&maxradius=2', function(response) {
+      mag5=response;
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      console.log(response);
+           function drawChart() {
+
+        // PieChart
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+        data.addColumn('number', 'count');
+        data.addRows([
+          ['2014', parseInt(earthquake2014)],
+          ['2015', parseInt(earthquake2015)],
+          ['2016', parseInt(earthquake2016)],
+          ['2017', parseInt(earthquake2017)],
+          ['2018', parseInt(earthquake2018)]
+        ]);
+        var options = {'title':'',
+                slices: {0: {color: 'red'}, 1:{color: 'green'}, 2:{color: 'blue'}, 3: {color: 'orange'}, 4:{color: 'purple'}},
+ 				legend:{position:'bottom'}};
+        var chart = new google.visualization.PieChart  (document.getElementById('earthquake_PieChart'));
+        chart.draw(data, options);
+
+
+       //Area chart
+      
+      magOnChange(3,0);
+        // Donut Chart
+        var data3 = new google.visualization.DataTable();
+        data3.addColumn('string', 'magnitude');
+        data3.addColumn('number', 'count');
+        data3.addRows([
+          ['Magnitude <2', parseInt(mag_2)],
+          ['Magnitude 2-3', parseInt(mag2_3)],
+          ['Magnitude 3-4', parseInt(mag3_4)],
+          ['Magnitude 4-5', parseInt(mag4_5)],
+          ['Magnitude >5', parseInt(mag5)]
+        ]);
+        var options3 = {'title':'',
+                slices: {0: {color: 'orange'}, 1:{color: 'green'}, 2:{color: 'yellow'}, 3: {color: 'purple'}, 4:{color: 'grey'}},
+          legend:{position:'bottom'},
+        'pieHole': 0.4};
+        var chart3 = new google.visualization.PieChart  (document.getElementById('earthquake_donut'));
+        chart3.draw(data3, options3);
+
+        // TrendLine
+        var data4 = google.visualization.arrayToDataTable([
+                     ['Year', 'Earthquakes'],
+                     [2014, parseInt(earthquake2014)],
+                     [2015, parseInt(earthquake2015)],
+                     [2016, parseInt(earthquake2016)],
+                      [2017, parseInt(earthquake2017)]]);
+        var options4 = {
+                title: '',
+                hAxis: {title: 'Year'},
+                vAxis: {title: 'Earthquakes'},
+                legend: 'none',
+                trendlines: { 0: {} }    // Draw a trendline for data series 0.
+             };
+
+         var chart4 = new google.visualization.ScatterChart(document.getElementById('earthquake_trendline'));
+         chart4.draw(data4, options4);
+      }
+   
+      });
+
+      
+      function parameterMagOnChange(){
+
+    	  var magnitude=document.getElementById("magnitude").value;
+       
+           var loc=parseInt(document.getElementById("location").value);
+           magOnChange(magnitude,loc);
+    	  
+      }
+      
+      
+      function magOnChange(magnitude,loc){
+    	  
+    	   var magless2014,magless2015,magless2016,magless2017,magless2018,magmore2014,magmore2015,magmore2016,magmore2017,magmore2018;
+           document.getElementById("earthquake_area_chart").innerHTML = "";
+    	  var latlong=[
+       	   [36.821,-119.936,6.2],[37.740,-122.452,1.09],[37.321,-121.905,0.9],[34.011,34.011,1.65]
+          ] 
+
+         client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2014-01-1&endtime=2014-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2]+'', function(response) {
+                magless2014=response;
+         });
+
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2015-01-1&endtime=2015-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magless2015=response;
+
+         });
+
+         client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2016-01-1&endtime=2016-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magless2016=response;
+
+         });
+
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2017-01-1&endtime=2017-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magless2017=response;
+
+         });
+
+           client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude=2&maxmagnitude='+magnitude+'&starttime=2018-01-1&endtime=2018-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magless2018=response;
+
+         });
+
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2014-01-1&endtime=2014-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2014=response;
+
+         });
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2015-01-1&endtime=2015-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2015=response;
+
+         });
+
+         client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2016-01-1&endtime=2016-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2016=response;
+
+         });
+
+          client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2017-01-1&endtime=2017-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2017=response;
+
+         });
+
+           client.get('https://earthquake.usgs.gov/fdsnws/event/1/count?minmagnitude='+magnitude+'&starttime=2018-01-1&endtime=2018-12-31&latitude='+latlong[loc][0]+'&longitude='+latlong[loc][1]+'&maxradius='+latlong[loc][2], function(response) {
+                magmore2018=response;
+
+         
+          
+        //   console.log(magless2014+" "+magless2015+" "+magless2016+" "+magless2017+" "+magless2018);
+          // console.log(magmore2014+" "+magmore2015+" "+magmore2016+" "+magmore2017+" "+magmore2018);
+           // Area Chart
+           var data1 = google.visualization.arrayToDataTable([
+            ['Year', 'Magnitude<'+magnitude, 'Magnitude>'+magnitude],
+            ['2014',  parseInt(magless2014),parseInt(magmore2014)],
+            ['2015',  parseInt(magless2015),parseInt(magmore2015)],
+            ['2016',  parseInt(magless2016),parseInt(magmore2016)],
+            ['2017',  parseInt(magless2017),parseInt(magmore2017)],
+            ['2018',  parseInt(magless2018),parseInt(magmore2018)]
+          ]);
+
+          var options1 = {
+            title: 'Earthquakes Over Time',
+            hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
+            vAxis: {minValue: 0},
+              // Colors the entire chart area, simple version
+              // backgroundColor: '#FF0000',
+              // Colors the entire chart area, with opacity
+              backgroundColor: {
+                fill: '#1ABB9C',
+                fillOpacity: 0.1
+              }
+          };
+          var chartType=document.getElementById("chartType").value;
+          if(chartType=="areachart"){
+          var chart1 = new google.visualization.AreaChart(document.getElementById('earthquake_area_chart'));
+          chart1.draw(data1, options1);
+          }
+          else if(chartType=="barchart"){
+        	  var chart1 = new google.visualization.BarChart(document.getElementById('earthquake_area_chart'));
+              chart1.draw(data1, options1);  
+          }
+          else {
+        	  var chart1 = new google.visualization.ColumnChart(document.getElementById('earthquake_area_chart'));
+              chart1.draw(data1, options1);  
+          }
+           });  
+      }
+         </script>
+
+        
+    
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+    <!-- Left navbar links -->
+     <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="/" class="nav-link"><h3 allign="center"><b>Dashboard</b></h3></a>
+      </li>
+      </nav> 
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+      <!-- Brand Logo --><br>
+    <a href="/" class="brand-link">
+              <i class="fa fa-globe" style="font-size: 25px;"></i> <span style="font-size: 20px;">Earthquake Prediction</span>
+    </a>
+
+
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item ">
+           
+            <a href="/" class="nav-link active">
+              <i class="nav-icon fa fa-dashboard" style="font-size:24px"></i>
+              <p>
+                Dashboard
+                
+              </p>
+            </a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="/datadownload" class="nav-link">
+              <i class="fa fa-download" style="font-size:24px"></i>
+              <p>
+                Data Download
+               
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/noiseremoval" class="nav-link ">
+              <i class="nav-icon fa fa-table" style="font-size:24px"></i>
+              <p>
+                Noise Removal
+               
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/prediction" class="nav-link">
+              <i class="fa fa-clock-o" style="font-size:24px"></i>
+              <p>Prediction Model</p>
+            </a>
+          </li>
+           <li class="nav-item">
+            <a href="/subscribe" class="nav-link">
+              <i class="fa fa-plus" style="font-size:24px"></i>
+              <p>
+                Subscribe
+               
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/unsubscribe" class="nav-link">
+              <i class="fa fa-minus" style="font-size:24px"></i>
+              <p>
+                UnSubscribe
+               
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+   <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h3 class="m-0 text-dark">California statistics</h3>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+             <h3 class="m-0 text-dark">Recent Earthquake in California</h3>
+              
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+   
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+          <div class="col-lg-2 col-2">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <span class="count_top"></i> Total Earthquakes</span>
+             <h1> <div class="count" id="pastweek">435</div></h1>
+              <span class="count_bottom">Past one Week</span>
+               
+              </div>
+              
+            </div>
+          </div>
+
+          <!-- ./col -->
+          <div class="col-lg-2 col-3">
+            <!-- small box -->
+            <div class="small-box bg-warning">
+              <div class="inner">
+                <span class="count_top"></i> Total Earthquakes</span>
+             <h1> <div class="count" id="pastmonth">435</div></h1>
+              <span class="count_bottom">Past one Month</span>
+               
+              </div>
+              
+            </div>
+          </div>
+          
+          <!-- ./col -->
+          <div class="col-lg-2 col-3">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+              <div class="inner">
+                <span class="count_top"></i> Total Earthquakes</span>
+             <h1> <div class="count" id="pastyear">435</div></h1>
+              <span class="count_bottom">Past one Year</span>
+               
+              </div>
+              
+            </div>
+          </div>
+         
+          <!-- ./col -->
+          <div class="col-lg-6 col-3">
+            <!-- small box -->
+            <div class="small-box">
+                <div class="row inner">  
+                   <div class="col-lg-6 col-3 bg-success" id="locate" >
+                   </div>
+               <div class=" modal" id="myModal">
+          <div class="modal-content">
+            <div class="content-wrapper">
+           <table id="moreTable" class="table table-hover" style="border:1px solid black;">
+            <tr>
+             <th>Location</th>
+             <th> Time</th>
+             <th> Magnitude</th>
+            </tr>
+           </table>
+      
+       </div>
+      </div>
+         </div>
+               
+               <div  class="col-lg-6 col-3"  id="map2" ></div> 
+               </div>
+              </div>
+              
+            </div>
+          
+          
+
+        </div>
+        <!-- /.row -->
+        <!-- Main row -->
+        <div class="row">
+          <!-- Left col -->
+          <div class="col-lg-6">
+            <!-- Custom tabs (Charts with tabs)-->
+            <div class="card">
+              <div class="card-header ">
+                <div class="row">
+
+                  <div class="col-lg-4" >
+                    <div class="form-group">
+                     &nbsp; &nbsp; <label style="text-align: center;">Location </label>
+                  <select  id="location"  class="form-control" style=" height:40px;width:100%" >
+                    <option selected="selected" value="0">California</option>
+                    <option value="1">San Jose</option>
+                    <option value="2">San Francisco</option>
+                    <option value="3">Los Angeles</option>
+                    
+                    </select>
+                  </div>
+                  </div>
+                  <div class="col-lg-3">
+                      <div class="form-group">
+                     &nbsp; &nbsp; <label style="text-align: center;">Chart type </label>
+                    <select class="form-control select2" id="chartType" style=" height:40px;width:100%" >>
+                    <option value="areachart">Area Chart</option>
+                    <option value="barchart"> Bar Chart</option>
+                    <option value="columnchart">Column Chart</option>
+                    </select>
+                  </div>
+                </div>
+                  <div class="col-lg-3">
+                    <div class="form-group">
+                     &nbsp; &nbsp; <label style="text-align: center;">Magnitude</label>
+                    <input type="number" placeholder="magnitude"  style="height:40px;width:100%;"class="form-control " min="2" max="8" value="magnitude" id="magnitude">
+                  </div>  
+                  </div>          
+                     <div class="col-lg-2">
+
+                   <input type='button' style="margin-top:30px;width:100%;background-color:darkblue;font-size: 15px;"class="btn normal btn-info btn-sm" onClick="parameterMagOnChange()" value="View">
+                 </div>
+                 </div>
+             </div>
+              <div class="card-body">
+                
+                  
+                
+                  <div class="chart tab-pane" id="earthquake_area_chart" style="position: relative; width:100%;height: 300px;"></div>
+                
+              </div><!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+            </div>
+
+            
+                <!-- /.Left col -->
+          <!-- right col (We are only adding the ID to make the widgets sortable)-->
+          <div class="col-lg-6" style="height: 350px;">
+
+            <!-- Map card -->
+            <div class="card ">
+              <div class="card-header card-danger">
+                <div class="row">
+                 <div class="col-lg-6">
+
+                  <i class="fa fa-map-marker mr-3"></i>
+                <label style="font-size: 18px;"> Interactive Map with the earthquakes</label>
+                
+                <!-- card tools -->
+                </div>
+              <div class="col-lg-6">
+               <SELECT class="form-control select2"  style="height:40px;width:100%; "onchange="myFunction()" id="option">
+                <optgroup label="Past Hour">
+                  <option value="all_hour">All Earthquakes</option>
+                  <option value="significant_hour">Significant Earthquakes</option>
+                  <option value="4.5_hour">Magnitude 4.5+ Earthquakes</option>
+                  <option value="2.5_hour">Magnitude 2.5+ Earthquakes</option>
+                  <option value="1.0_hour">Magnitude 1.0+ Earthquakes</option>
+                </optgroup>
+                <optgroup label="Past Day">
+                  <option value="all_day">All Earthquakes</option>
+                  <option value="significant_day">Significant Earthquakes</option>
+                  <option value="4.5_day">Magnitude 4.5+ Earthquakes</option>
+                  <option value="2.5_day">Magnitude 2.5+ Earthquakes</option>
+                  <option value="1.0_day">Magnitude 1.0+ Earthquakes</option>
+                </optgroup>
+              </SELECT>
+
+              </div>
+              </div>
+            </div>
+              <div class="card-body">
+                          <div id='map' style="height: 340px"></div>
+
+                </div>
+                <!-- /.row -->
+              </div>
+            </div>
+            <!-- /.card -->
+
+          </div>
+          </div>
+          <!-- row end-->
+           <div class="row" style="height:300px;">
+              <div class="col-lg-4 ">
+                <!-- DIRECT CHAT -->
+                <div class="card ">
+                  <div class="card-header">
+                    <h3 class="card-title">Total Earthquake By Year</h3>
+
+                   
+                  <!-- /.card-header -->
+                  <div class="card-body">
+             
+                     
+
+                    <div style="width:100%;"  id="earthquake_PieChart"></div>
+
+                     
+
+                 
+                        
+  
+                  </div>
+                  <!-- /.card-body -->
+                 
+                  </div>
+                  <!-- /.card-footer-->
+                </div>
+                <!--/.direct-chat -->
+              </div>
+              <!-- /.col -->
+           
+          <div class="col-lg-4" >
+                <!-- DIRECT CHAT -->
+                <div class="card ">
+                  <div class="card-header">
+                    <h3 class="card-title">Earthquakes By Magnitude</h3>
+
+                   
+                  <!-- /.card-header -->
+                  <div class="card-body">
+                    <!-- Conversations are loaded here -->
+                
+                     
+                     <div id="earthquake_donut"></div>
+                     
+
+                 
+                        
+                    
+                  </div>
+                  <!-- /.card-body -->
+                 
+                  </div>
+                  <!-- /.card-footer-->
+                </div>
+                <!--/.direct-chat -->
+              </div>
+              <!-- /.col -->
+              <div class="col-lg-4">
+                <!-- DIRECT CHAT -->
+                <div class="card ">
+                  <div class="card-header">
+                    <h3 class="card-title">Earthquake TrendLine</h3>
+
+                   
+                  <!-- /.card-header -->
+                  <div class="card-body">
+                  
+              
+                    
+                <div  style="margin-top: 8px;"  id="earthquake_trendline"></div>
+
+                 
+                   
+                  </div>
+                  <!-- /.card-body -->
+                 
+                  </div>
+                  <!-- /.card-footer-->
+                </div>
+                <!--/.direct-chat -->
+              </div>
+              <!-- /.col -->
+
+           </div>
+             <!-- row-->
+         
+            
+              
+
+        </div>
+        <!-- /.row (main row) -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+   
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+ <script>
+  var url = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson';
+  function myFunction() {
+    var x = document.getElementById("option").value;
+    if(x=="significant_hour")
+      url='https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_hour.geojson';
+    else if(x=="4.5_hour")
+      url='https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_hour.geojson';
+    else if(x=="2.5_hour")
+      url='https://earthquke.usgs.gov/earthquakes/feed/v1.0/summary/2.5_hour.geojson';
+    else if(x=='1.0_hour')
+      url='https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_hour.geojson';
+    else if(x=="all_hour")
+      url='https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson';
+    else if(x=="significant_day")
+      url='https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_day.geojson';
+    else if(x=="4.5_day")
+      url='https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson';
+    else if(x=="2.5_day")
+      url='https://earthquke.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson';
+    else if(x=='1.0_day')
+      url='https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_day.geojson';
+    else if(x=="all_day")
+      url='https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson';
+    map.on('load', function () {
+    window.setInterval(function() {
+        map.getSource('drone').setData(url);
+    }, 2000);
+     map.removeSource('drone');
+    map.addSource('drone', { type: 'geojson', data: url });
+    map.addLayer({
+        "id": "drone",
+        "type": "circle",
+        "source": "drone",
+        "layout": {
+            'visibility': 'visible',
+            
+        },
+        'paint': {
+           'circle-radius': 4,
+             'circle-color': 'yellow',
+              'circle-stroke-color':'red' ,
+              'circle-stroke-width':2
+        },
+    });
+   });
+}
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2hpbHBhY2hhbmRyYSIsImEiOiJjajhycXJ2OTEwMGFsMnhvMjZlNW12bnU1In0.-qhoEBgFVL1LZz470nbRdw';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [-120.50, 40],
+    zoom: 5
+});
+
+
+map.on('load', function () {
+    window.setInterval(function() {
+        map.getSource('drone').setData(url);
+    }, 2000);
+
+    map.addSource('drone', { type: 'geojson', data: url });
+    map.addLayer({
+        "id": "drone",
+        "type": "circle",
+        "source": "drone",
+        "layout": {
+            'visibility': 'visible',
+            
+        },
+        'paint': {
+             'circle-radius': 4,
+               'circle-color':'yellow' ,
+              'circle-stroke-color':'red',
+              'circle-stroke-width':2        
+        },
+    });
+    map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['drone'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+var t = new Date( feature.properties.time );
+//var d=features.bbox;
+//System.out.println(feature);
+// var formatted = t.format("dd.mm.yyyy hh:MM:ss");
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.title + '</h3><p> Time :   ' + t + '</p><p>'+'</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+});
+});
+
+</script>
+
+
+
+
+
+</script>
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Morris.js charts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="plugins/morris/morris.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparkline/jquery.sparkline.min.js"></script>
+<!-- jvectormap -->
+<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/knob/jquery.knob.js"></script>
+<!-- daterangepicker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- datepicker -->
+<script src="plugins/datepicker/bootstrap-datepicker.js"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<!-- Slimscroll -->
+<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<
+</body>
+<script>
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map2'), {
+      zoom: 10,
+      center: {lat: 32.397, lng: -120.644}
+    });
+
+    var geocoder = new google.maps.Geocoder();
+
+   var HttpClient = function() {
+  this.get = function(aUrl, aCallback) {
+    var anHttpRequest = new XMLHttpRequest();
+    anHttpRequest.onreadystatechange = function() { 
+        if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+            aCallback(anHttpRequest.responseText);
+    }
+
+
+    anHttpRequest.open( "GET", aUrl, true );            
+    anHttpRequest.send( null );
+   }
+  }
+
+   endtime=todayDate(0);
+   pastweek=todayDate(1);   
+  var client = new HttpClient();
+client.get('https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=3&starttime='+pastweek+'&orderby=time&endtime='+endtime+'&minlatitude=32&maxlatitude=39&minlongitude=-130&maxlongitude=-114', function(response) {
+      
+    var result=JSON.parse(response);
+    var place=result.features[0].properties.place;
+    
+    for(var i=0;i<result.metadata.count;i++){
+    	document.getElementById('moreTable').innerHTML+="<td>"+result.features[i].properties.place+"</td><td>"+new Date(result.features[i].properties.time)+"</td><td>"+result.features[i].properties.mag+"</td>";
+    }
+    console.log(result.features[0].properties.mag);
+    document.getElementById('locate').innerHTML+="<h5>Magnitude: <b>"+result.features[0].properties.mag+"</b></h5><div style='font-size:12px;'>Location: <b>"+place+"</b> <br><b> "+new Date(result.features[0].properties.time)+"</b></div><input type='button' onClick='callClick()' id='more' style='float:right;' class='btn btn-sm btn-info'  value='more'>";
+
+
+      var marker = new google.maps.Marker({
+          map: map,
+          position:{ lat:result.features[0].geometry.coordinates[1],lng:result.features[0].geometry.coordinates[0]}
+        });
+
+      map.setCenter(new google.maps.LatLng(result.features[0].geometry.coordinates[1], result.features[0].geometry.coordinates[0]));
+	  map.setZoom(map.getZoom()-1);
+}); 
+ 
+
+  }
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("more");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+function callClick() {
+    modal.style.display = "block";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJcq0861S6TRPedx8YCZoRxDdNy7ApIP0&callback=initMap"></script>
+    <style type="text/css">
+      .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+   
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+</style>
+</html>
