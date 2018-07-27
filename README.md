@@ -4,15 +4,15 @@ This project is about implementing a machine learning model in detecting an eart
 
 # Requirements
 * sudo apt install nodejs
-⋅⋅* sudo apt install npm
-⋅⋅* sudo apt-get install python
-⋅⋅* pip install obspy
-⋅⋅* pip install -U scikit-learn
+* sudo apt install npm
+* sudo apt-get install python
+* pip install obspy
+* pip install -U scikit-learn
 
 # Execution
-⋅⋅* For Executing the Node Js Application go the folder with app.js file
+* For Executing the Node Js Application go the folder with app.js file
       node app.js
-⋅⋅* For Executing the Model Python Flask api go the folder with mode.py file
+* For Executing the Model Python Flask api go the folder with mode.py file
       Python model.py
-⋅⋅* For Executing Noise Removal or Data Download API
+* For Executing Noise Removal or Data Download API
       Python Datadownload.py     
