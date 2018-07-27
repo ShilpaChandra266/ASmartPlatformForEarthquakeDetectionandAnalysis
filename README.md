@@ -3,7 +3,7 @@
 This project is about implementing a machine learning model in detecting an earthquake if there is any in the incoming data. This project also includes developing a web application to provide analysis on earthquakes over past years. 
 
 # Requirements
-⋅⋅* sudo apt install nodejs
+..* sudo apt install nodejs
 ⋅⋅* sudo apt install npm
 ⋅⋅* sudo apt-get install python
 ⋅⋅* pip install obspy
