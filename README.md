@@ -11,8 +11,8 @@ This project is about implementing a machine learning model in detecting an eart
 
 # Execution
 * For Executing the Node Js Application go the folder with app.js file
-      node app.js
+      - node app.js
 * For Executing the Model Python Flask api go the folder with mode.py file
-      Python model.py
+      - Python model.py
 * For Executing Noise Removal or Data Download API
-      Python Datadownload.py     
+      - Python Datadownload.py     
